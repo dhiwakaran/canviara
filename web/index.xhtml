@@ -6,6 +6,18 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
    <f:view>
-      <h:outputLabel value="Hello, world"/>
+      <h:outputLabel value="ZFTVS Strategy Check"/><br/><br/><br/>
+       <h:outputLabel value="Analysis level :"/> <h:inputText value="0" id="txtAnalysis" ></h:inputText>
+
+       <br/><br/>
+
+       <h:outputLabel value="Formulation level :"/> <h:inputText value="0" id="txtFormulation" ></h:inputText>
+       <br/><br/>
+
+       <h:outputLabel value="Implementation level :"/> <h:inputText value="0" id="txtImplementation" ></h:inputText>
+       <br/><br/>
+
+
+       <h:commandButton id="cmdCheckStrategy" value="Check Strategy"></h:commandButton>
    </f:view>
 </html>
