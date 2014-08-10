@@ -11,10 +11,10 @@ import javax.faces.event.ActionEvent;
 
 public class StrategyCheck{
 
-    private int Analysis;
-    private int formulation;
-    private int implementation;
-    private int result;
+    private int Analysis=0;
+    private int formulation=0;
+    private int implementation=0;
+    private int result=0;
 
     public int getResult() {
         return result;
@@ -51,7 +51,7 @@ public class StrategyCheck{
 
     public String  CheckStrategyResult()
     {
-        result = ( Analysis * formulation * implementation) >= 1 ? 1 :0  ;
+      //  result = ( Analysis * formulation * implementation) >= 1 ? 1 :0  ;
         return "success";
     }
 
